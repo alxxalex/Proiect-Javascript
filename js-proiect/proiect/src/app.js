@@ -105,6 +105,5 @@ class Task {
     }
 }
 
-const taskManager = new TaskManager("#container", "#template"); document.addEventListener("DOMContentLoaded", taskManager.fillList());
-
-// tratare exceptie
+const taskManager = new TaskManager("#container", "#template"); 
+document.addEventListener("DOMContentLoaded", taskManager.fillList());
